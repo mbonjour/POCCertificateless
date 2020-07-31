@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(POCCertificatelessCryptography C)
 
 set(CMAKE_C_STANDARD 11)
-link_libraries(asan)
+#link_libraries(asan)
 include_directories(. ${CMAKE_SOURCE_DIR}/libs/relic/include ${CMAKE_SOURCE_DIR}/libs/unqlite ${CMAKE_SOURCE_DIR}/libs/relic-target/include ${CMAKE_SOURCE_DIR}/libs/binn)
 
 link_libraries(${CMAKE_SOURCE_DIR}/libs/relic-target/lib/librelic.so)
@@ -22,7 +22,7 @@ set(CLIENT_SOURCES client/mainClient.c utils/aesUtils.c utils/aesUtils.h client/
 set(SERVER_SOURCES server/mainServer.c)
 set(TEST_SOURCES test/fullTest.c utils/aesUtils.c utils/aesUtils.h)
 
-add_definitions("-Wall -Wextra -Wpedantic ")
+# add_definitions("-Wall -Wextra -Wpedantic ")
 # -Wformat=2 -Wno-unused-parameter -Wshadow -Wwrite-strings -Wstrict-prototypes -Wold-style-definition -Wredundant-decls -Wnested-externs -Wmissing-include-dirs
 
 add_executable(mainClient ${CLIENT_SOURCES} ${COMMON_SOURCES})
