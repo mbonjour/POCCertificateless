@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="POCCertificatelessCryptography"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainClient">
+				<Option output="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/mainClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/PUBLIC"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic-target/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainClient"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainClient/fast">
+				<Option output="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/mainClient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/PUBLIC"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic-target/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainClient/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testAlgo">
+				<Option output="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/testAlgo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/PUBLIC"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic-target/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 testAlgo"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="testAlgo/fast">
+				<Option output="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/testAlgo" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/PUBLIC"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic-target/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 testAlgo/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainServer">
+				<Option output="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/mainServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/PUBLIC"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic-target/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainServer"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="mainServer/fast">
+				<Option output="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/mainServer" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/PUBLIC"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic-target/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/libs/relic/include"/>
+					<Add directory="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/."/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 mainServer/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cipherPOC.c">
+			<Option target="mainClient"/>
+			<Option target="testAlgo"/>
+			<Option target="mainServer"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/cipherPOC.h">
+			<Option target="mainClient"/>
+			<Option target="testAlgo"/>
+			<Option target="mainServer"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/client/mainClient.c">
+			<Option target="mainClient"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/server/mainServer.c">
+			<Option target="mainServer"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/signaturePOC.c">
+			<Option target="mainClient"/>
+			<Option target="testAlgo"/>
+			<Option target="mainServer"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/signaturePOC.h">
+			<Option target="mainClient"/>
+			<Option target="testAlgo"/>
+			<Option target="mainServer"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/test/fullTest.c">
+			<Option target="testAlgo"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/utils/aesUtils.c">
+			<Option target="mainClient"/>
+			<Option target="testAlgo"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/utils/aesUtils.h">
+			<Option target="mainClient"/>
+			<Option target="testAlgo"/>
+		</Unit>
+		<Unit filename="/home/mbonjour/HEIG-VD/annee3/semestre_2/TB/POCCertificatelessCryptography/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
