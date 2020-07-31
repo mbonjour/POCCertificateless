@@ -44,8 +44,8 @@ sudo apt-get install libgmp-dev
 
 One more step, we need to download the RELIC library source and copy it to the lib folder :
 ```bash
+cd libs
 git clone https://github.com/relic-toolkit/relic.git
-cp -r relic libs/
 ```
 ## Build and launch
 To simply build from the sources you can try this command :
